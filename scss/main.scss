@@ -67,11 +67,24 @@ main {
     }
   }
 }
+.my-footer-my-data {
+  background: #ffd5af;
+  border-top: 3px solid #712e1e;
+  padding: 1rem;
+  color: #712e1e;
+}
 
-footer {
-  font-size: 11px;
+.my-footer-my-data p {
   text-align: center;
-  a {
-    color: hsl(228, 45%, 44%);
+  font-size: 1.5rem;
+  text-wrap: balance;
+}
+.my-footer-my-data p a {
+  text-decoration: none;
+  color: #712e1e;
+  font-weight: bolder;
+  transition: 500ms ease-in-out all;
+  &:hover {
+    color: #000;
   }
 }
